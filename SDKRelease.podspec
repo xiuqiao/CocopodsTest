@@ -32,12 +32,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "git@github.com:xiuqiao/CocopodsTest.git", :tag => "0.0.1" }
 
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  s.source_files  = 'libRelease.a'
-  s.public_header_files = 'include/*.{h}'
-
+  s.source_files  = '*.{a,h}'
+  # s.public_header_files = 'TestReleaseSDK.h'
 
   s.framework  = "Foundation"
 
